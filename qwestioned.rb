@@ -6,7 +6,7 @@ get '/' do
   erb :root
 end
 
-post '/client' do
+get '/client' do
   # build up a response
 
   response = Twilio::TwiML::Response.new do |r|
