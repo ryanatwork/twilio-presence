@@ -8,7 +8,6 @@ end
 
 get '/client' do
   # build up a response
-
   response = Twilio::TwiML::Response.new do |r|
     r.Dial do |d|
       d.Client params[:PhoneNumber]
@@ -17,6 +16,7 @@ get '/client' do
 
   # print the result
   puts response.text
+  response.text
 end
 
 def generate_auth(client = 'ryan')
