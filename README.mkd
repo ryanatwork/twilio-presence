@@ -7,11 +7,17 @@ This is the Ruby version of the [http://www.twilio.com/docs/quickstart/client/di
 You can see a running version of the application at
 [http://qwestioned.herokuapp.com/](http://qwestioned.herokuapp.com/)
 
+
 To test the in browser calling open one browser with a username
 
 [http://qwestioned.herokuapp.com/user1](http://qwestioned.herokuapp.com/user1)
+
+
 [http://qwestioned.herokuapp.com/user2](http://qwestioned.herokuapp.com/user2)
+
+
 [http://qwestioned.herokuaoo.com/user3](http://qwestioned.herokuapp.com/user3)
+
 
 
 ## <a name="installation">Installation</a>
@@ -21,10 +27,17 @@ To test the in browser calling open one browser with a username
 
 ## <a name="configuration">Configuration</a>
 Setup your configuration with your [https://www.twilio.com/login](Twilio account)
+
 Add the 3 Environment Variables
+
 ENV['TWILIO_SID'] = '123456'
+
+
 ENV['TWILIO_TOKEN'] = 'ABC1234'
+
+
 ENV['TWILIO_APP'] = 'xyz4567'
+
 
 ## <a name="contributing">Contributing</a>
 In the spirit of [free software][free-sw], **everyone** is encouraged to help improve this project.
